@@ -15,12 +15,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%); }
 
 .box {
   width: 350px;
   background-color: #1d2c67;
-  padding: 2rem;
+  padding: 2.5rem;
   border-radius: 10px; }
 
 #logoIcons {
@@ -36,8 +40,60 @@ body {
       width: 50px;
       height: 50px;
       border-radius: 10px;
-      position: relative; }
+      position: relative;
+      border: none; }
       #logoIcons .iconContainer .iconBoxes img {
         position: absolute;
         top: 14px;
         left: 14px; }
+
+#information {
+  text-align: center;
+  position: relative; }
+
+.progressBar {
+  margin-top: 1rem;
+  background-color: #0c122c;
+  border-radius: 20px;
+  height: 16px;
+  width: 100%; }
+
+.progressBarDone {
+  border-radius: 20px;
+  background: linear-gradient(to left, #ffa399, #ff4d97);
+  height: 100%;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: end; }
+
+.circle {
+  background-color: #fff;
+  border-radius: 60%;
+  height: 12px;
+  width: 12px; }
+
+.progressBar-content {
+  margin-top: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.bigMessage {
+  position: absolute;
+  bottom: -3rem;
+  left: 25%;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px; }
+  .bigMessage h3 {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center; }
+
+.subText {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  opacity: .5; }

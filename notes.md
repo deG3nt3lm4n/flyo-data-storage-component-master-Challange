@@ -27,3 +27,6 @@ section Tomorrow.
 3. Finish the challange
 
 Hopefully it will work out.... ⌛️🤞🏿😕
+## fifth Note
+Okidokie so i finsished the mobile version of the design now going to try and make it so it is going to be
+desktop version kind of hoping things will go well but we will see what is going to happen....

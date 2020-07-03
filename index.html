@@ -17,35 +17,44 @@
 </head>
 <body>
 
+
 <div class="cardContainer">
 
   <div id="logoIcons" class="box">
     <img src="/assets/images/logo.svg" alt="Logo">
 
     <div class="iconContainer">
-      <div class="iconBoxes">
+      <button class="iconBoxes">
         <img src="/assets/images/icon-document.svg" alt="Add Document">
-      </div>
-      <div class="iconBoxes">
+      </button>
+      <button class="iconBoxes">
         <img src="/assets/images/icon-folder.svg" alt="add folder">
-      </div>
-      <div class="iconBoxes">
+      </button>
+      <button class="iconBoxes">
         <img src="/assets/images/icon-upload.svg" alt="Upload">
-      </div>
+      </button>
     </div>
     
   </div>
 
   <div id="information" class="box">
     <p>You’ve used <strong>815 GB</strong> of your storage</p>
-    <div class="progressBar"></div>
+
+    <div class="progressBar">
+      <div class="progressBarDone" data-done="70">
+        <div class="circle"></div>
+      </div>
+    </div>
+
     <div class="progressBar-content">
       <p>0 GB</p>
       <p>1000 GB</p>
     </div>
+
     <div class="bigMessage">
       <h3>185 <span class="subText">GB Left</span></h3>
     </div>
+
   </div>
 
 </div>
