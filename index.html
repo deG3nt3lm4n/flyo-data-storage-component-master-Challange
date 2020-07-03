@@ -8,6 +8,9 @@
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
+  <!-- Font link -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="assets/style/main.css">
 
 
@@ -15,21 +18,25 @@
 <body>
 
 <div class="cardContainer">
-  
-  <div id="logoIcons">
+
+  <div id="logoIcons" class="box">
     <img src="/assets/images/logo.svg" alt="Logo">
-    <div class="iconBoxes">
-      <img src="/assets/images/icon-document.svg" alt="Add Document">
+
+    <div class="iconContainer">
+      <div class="iconBoxes">
+        <img src="/assets/images/icon-document.svg" alt="Add Document">
+      </div>
+      <div class="iconBoxes">
+        <img src="/assets/images/icon-folder.svg" alt="add folder">
+      </div>
+      <div class="iconBoxes">
+        <img src="/assets/images/icon-upload.svg" alt="Upload">
+      </div>
     </div>
-    <div class="iconBoxes">
-      <img src="/assets/images/icon-folder.svg" alt="add folder">
-    </div>
-    <div class="iconBoxes">
-      <img src="/assets/images/icon-upload.svg" alt="Upload">
-    </div>
+    
   </div>
 
-  <div id="information">
+  <div id="information" class="box">
     <p>You’ve used <strong>815 GB</strong> of your storage</p>
     <div class="progressBar"></div>
     <div class="progressBar-content">

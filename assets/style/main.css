@@ -3,9 +3,41 @@
   padding: 0;
   box-sizing: border-box; }
 
-.attribution {
-  font-size: 11px;
-  text-align: center; }
+body {
+  background: url("../images/bg-mobile.png") no-repeat;
+  background-size: cover;
+  color: #dddbff;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif; }
 
-.attribution a {
-  color: #3e52a3; }
+.cardContainer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.box {
+  width: 350px;
+  background-color: #1d2c67;
+  padding: 2rem;
+  border-radius: 10px; }
+
+#logoIcons {
+  margin-bottom: 1rem;
+  border-top-right-radius: 40%; }
+  #logoIcons .iconContainer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center; }
+    #logoIcons .iconContainer .iconBoxes {
+      margin-right: 1.2rem;
+      background-color: #0c122c;
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      position: relative; }
+      #logoIcons .iconContainer .iconBoxes img {
+        position: absolute;
+        top: 14px;
+        left: 14px; }
